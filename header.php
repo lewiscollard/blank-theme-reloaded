@@ -7,7 +7,7 @@
         <meta name="robots" content="noindex, nofollow" /> 
     <?php } ?>
 
-    <title><?php wp_title( '|', true, 'right' ); echo get_bloginfo('name'); ?></title>
+    <title><?php wp_title( '|', true, 'right' );?></title>
     
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
