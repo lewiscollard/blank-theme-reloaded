@@ -13,7 +13,7 @@
             <?php /* edit_post_link('Edit this entry.', '<p>', '</p>'); */ /* steve hates this */ ?>
         </article>
         
-        <?php /* comments_template(); */ /* Uncomment for comments on pages. */ ?>
+        <?php comments_template(); /* Uncomment for comments on pages. */ ?>
 
     <?php endwhile; endif; ?>
 
