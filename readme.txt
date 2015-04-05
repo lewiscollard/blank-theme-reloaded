@@ -2,7 +2,7 @@
                         --------------------
                (aka Blank Theme 2: Electric Boogaloo)
 
-This is Chris Coyiers "Blank" theme ported to WordPress 3.9.1 and updated
+This is Chris Coyiers "Blank" theme ported to WordPress 4.1.1 and updated
 for 2015 by Lewis Collard and Steve Judge. From the original description:
 
  It is a WordPress theme with all the functionality of a typical WordPress
@@ -28,5 +28,4 @@ following:
 
 Feel free to use this for any purpose at all. Commercial use is specifically
 allowed and encouraged. For a formal license statement, use the unlicense
-(http://unlicense.org/).
-
+(http://unlicense.org/) in the file UNLICENSE.
