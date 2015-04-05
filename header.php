@@ -27,5 +27,10 @@
             <p id="header-description"><?php bloginfo('description'); ?></p>
         </div>
     </header>
+    
+    <nav id="main-nav">
+        <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+    </nav>
+    
     <div class="container">
         
