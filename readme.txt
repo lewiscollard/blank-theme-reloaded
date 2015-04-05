@@ -17,7 +17,7 @@ Other than fixing it to work with modern WordPress versions, we did the
 following:
 
  * Updated jQuery.
- * Fixed use of deprecated functions; it now works without warnings on 3.9.1
+ * Fixed use of deprecated functions; it now works without warnings on 4.1.1
    with WP_DEBUG turned on.
  * Added a Meyer CSS reset.
  * Boilerplate blah in style.css to make theme-check happy.
