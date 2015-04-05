@@ -13,7 +13,7 @@ for 2015 by Lewis Collard and Steve Judge. From the original description:
 This is a raw ingot, a blank for use in new theme development; this is of
 no interest to non-developers.
 
-Other than fixing it to work with modern WordPress versions,, we did the
+Other than fixing it to work with modern WordPress versions, we did the
 following:
 
  * Updated jQuery.
