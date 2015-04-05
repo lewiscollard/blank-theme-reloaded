@@ -1,0 +1,146 @@
+/*   
+Theme Name: BLANK Theme 2: Electric Boogaloo
+Theme URI: https://github.com/lewiscollard/blank-theme-reloaded
+Description: Chris Coyier's blank theme, updated for WordPress 3.9.1.
+Author: Chris Coyier (original), Lewis Collard, Steve Judge
+Author URI: https://github.com/lewiscollard
+Version: 2
+License: Public domain
+License URI: http://unlicense.org/
+Tags: white
+*/
+
+/* BEGIN MEYER RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	-moz-text-rendering: optimizeLegibility;
+	-ms-text-rendering: optimizeLegibility;
+	-o-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END MEYER RESET */
+
+
+/* Although as much as I like resets... */
+strong {
+	font-weight: bold;
+}
+
+em, i {
+	font-style: italic;
+}
+
+/* Fix line heights for sub and sup. */
+sup {
+	font-size: 0.83em;
+	vertical-align: super;
+	line-height: 0;
+}
+
+sub {
+	font-size: 0.83em;
+	vertical-align: sub;
+	line-height: 0;
+}
+
+hr {
+	display: block;
+	border: none;
+	border-top: 1px solid #cccccc;
+	margin: 20px 0;
+}
+
+/* Required by theme-check, feel free to nuke */
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+.aligncenter {
+	text-align: center;
+}
+
+.wp-caption {
+	border: 1px solid #f0f0f0;
+	text-align: center;
+}
+.wp-caption-text {
+}
+
+/* Never used in any of my themes, here to shut up theme-check
+   so feel free to kill it */
+.sticky, .gallery-caption, .bypostauthor {
+
+}
+
+/* and I use these on everything */
+.clearme {
+	display: block;
+	clear: both;
+}
+@media screen {
+	.assistive {
+		display: none;
+	}
+}
+
+/* Responsive stuff. These sizes are arbitrary but work pretty
+   well for me. */
+
+@media screen and (max-width:1024px) {
+}
+@media screen and (max-width:800px) {
+}
+@media screen and (max-width:640px) {
+}
+@media screen and (max-width:480px) {
+}
+@media screen and (max-width:320px) {
+}
