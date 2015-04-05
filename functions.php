@@ -16,7 +16,7 @@ function blank_remove_head_links() {
 add_action('init', 'blank_remove_head_links');
 remove_action('wp_head', 'wp_generator');
 
-if (function_exists('register_sidebar')) {
+function blank_widgets_init() {
     register_sidebar(array(
         'name' => 'Sidebar Widgets',
         'id'   => 'sidebar-widgets',
@@ -27,6 +27,9 @@ if (function_exists('register_sidebar')) {
         'after_title'   => '</h2>'
    ));
 }
+
+add_action('widgets_init', 'blank_widgets_init');
+
 add_theme_support('automatic-feed-links');
 add_theme_support('post-thumbnails');
 
