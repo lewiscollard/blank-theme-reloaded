@@ -125,10 +125,13 @@ hr {
 	display: block;
 	clear: both;
 }
-@media screen {
-	.assistive {
-		display: none;
-	}
+
+.assistive, .screen-reader-text {
+	height: 1px;
+	width: 1px;
+	position: absolute;
+	overflow: hidden;
+	top: -10px;
 }
 
 /* Responsive stuff. These sizes are arbitrary but work pretty
