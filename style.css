@@ -37,14 +37,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	-moz-text-rendering: optimizeLegibility;
-	-ms-text-rendering: optimizeLegibility;
-	-o-text-rendering: optimizeLegibility;
 	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-font-smoothing: antialiased;
-	-ms-font-smoothing: antialiased;
-	-o-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	line-height: 1;
 }
