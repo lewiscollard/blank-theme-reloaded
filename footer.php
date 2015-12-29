@@ -1,4 +1,3 @@
-</div> <!-- class="container" -->
 <footer id="footer">
     <div class="container">
         &copy;<?php echo date("Y") . " " . get_bloginfo('name'); ?>
