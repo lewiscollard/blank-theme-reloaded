@@ -2,8 +2,8 @@
                         --------------------
                (aka Blank Theme 2: Electric Boogaloo)
 
-This is Chris Coyiers "Blank" theme ported to WordPress 4.1.1 and updated
-for 2015 by Lewis Collard and Steve Judge. From the original description:
+This is Chris Coyiers "Blank" theme ported to WordPress 4.4 and updated
+for 2016 by Lewis Collard and Steve Judge. From the original description:
 
  It is a WordPress theme with all the functionality of a typical WordPress
  theme but almost none of the styling. The idea is that when starting a new
@@ -17,7 +17,7 @@ Other than fixing it to work with modern WordPress versions, we did the
 following:
 
  * Updated jQuery.
- * Fixed use of deprecated functions; it now works without warnings on 4.1.1
+ * Fixed use of deprecated functions; it now works without warnings on 4.4
    with WP_DEBUG turned on.
  * Added a Meyer CSS reset.
  * Boilerplate blah in style.css to make theme-check happy.
